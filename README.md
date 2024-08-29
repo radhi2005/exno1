@@ -70,6 +70,7 @@ df.describe()
 ```
 ![image](https://github.com/user-attachments/assets/9fa08721-3485-40f5-8e24-05859a834f13)
 <h2>IQR</h2>
+
 ```
 import pandas as pd
 ir=pd.read_csv("/content/iris.csv")
@@ -109,6 +110,7 @@ sns.boxplot(x='sepal_width',data=delid)
 ![image](https://github.com/user-attachments/assets/559d8b1f-1ea9-43d6-9a1e-7fc7ab509869)
 <h2>Z_SCORE</h2>
 ```
+```
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -117,6 +119,7 @@ import scipy.stats as stats
 dataset=pd.read_csv('/content/heights.csv')
 dataset
 ```
+
 ```
 ![image](https://github.com/user-attachments/assets/72827648-2330-40f3-bd00-c9b3f8bb9b42)
 ```
